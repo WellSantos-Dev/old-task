@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskGen</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-principal">
+    <header>
+      <div class="icon-perfil">
+        <img src="./img/profile2.png" alt="">
+      </div>
+    </header>
+  
+    <main>
+      <div class="area-tasks">
+        
+      </div>
+    </main>
+
+    <button class="criar-tarefa"><svg width="42" height="43" viewBox="0 0 42 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d)">
+      <path d="M4.5614 15.4535L4.5614 19.7509L17.4536 19.7509L17.4536 33.7175L22.2882 33.7175L22.2882 19.7509L37.3291 19.7509L37.3291 15.4535L22.2882 15.4535L22.2882 1.48696L17.4536 1.48696L17.4536 15.4535L4.5614 15.4535Z" fill="white"/>
+      <path d="M4.5614 15.4535L4.5614 19.7509L17.4536 19.7509L17.4536 33.7175L22.2882 33.7175L22.2882 19.7509L37.3291 19.7509L37.3291 15.4535L22.2882 15.4535L22.2882 1.48696L17.4536 1.48696L17.4536 15.4535L4.5614 15.4535Z" stroke="#2D7FDE"/>
+      </g>
+      <defs>
+      <filter id="filter0_d" x="0.0614014" y="0.986969" width="41.7677" height="41.2305" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+      </filter>
+      </defs>
+      </svg>
+      </button>
+  </div>
+
+  <div class="modal-tarefa">
+    <form action="">
+      <input type="text" placeholder="Digite a tarefa" class="task">
+      <input type="text" placeholder="Detalhes" class="task-obs">
+      <button class="send-info">Enviar</button>
+    </form>
+  </div>
+
+  <script type="module" src="js/script.js"></script>
+  <script type="module" src="js/modules/criarTarefa.js"></script>
+  <script type="module" src="js/modules/removeTarefa.js"></script>
+</body>
+</html>
